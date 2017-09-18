@@ -55,8 +55,8 @@ nav li {
 /*	border-bottom: solid 1px #000;
 	border-top: solid 1px #000;*/
 	border-left: solid 2px #000;
-	margin-right:1em;
-	padding-left:1em;
+			margin-right:1em;
+
 }
 
 nav a {
@@ -64,6 +64,8 @@ nav a {
 	color: #00ced1;
 	display: block;
 	padding-right: 10px;
+	padding-left:1em;
+
 }
 nav a:hover {
 	background-color: #005f5f;
