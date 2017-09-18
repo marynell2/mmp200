@@ -41,12 +41,11 @@ a:active {
 }
 nav ul {
 	text-align: center; 
-	list-style: none;
 	margin: 10px;
 	border-color: black;
 	background-color: #f4bbbb;
     padding: 0;
-{
+}
 
 nav li {
 	color: #00ced1;
