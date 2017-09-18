@@ -3,10 +3,16 @@
 	font-family: 'Roborto', sans-serif;
 	width: 80%, center;
 	background-color: #FFF9C4;
+	max-width:700px;
+    margin: auto;
+    border: 1px solid #000;
+    padding-left: 10px;
+    padding-right: 10px;
 }
  img {
      max-width: 80%;
      height: auto; 
+     center ?
 } 
 
 h1 {color: black; text-align: center;
@@ -15,7 +21,7 @@ h1 {color: black; text-align: center;
 
 h2, h3 	{
 	color: black; text-align: center;
-	font-family: 
+	font-family: 'roborto', sans-serif;
 }
 p{
 	color: black;	
@@ -40,15 +46,13 @@ nav ul {
 	border-color: black;
 	background-color: #f4bbbb;
     padding: 0;
+{
 
-	
-}
 nav li {
 	color: #00ced1;
 	display: inline-block;
 	text-align: center;
-	margin: 150px, 200px;
-	font-size: 1.3em;
+	font-size: 1.2em;
 	line-height: 40px;
 /*	border-bottom: solid 1px #000;
 	border-top: solid 1px #000;*/
@@ -59,7 +63,7 @@ nav a {
 	text-decoration: none;
 	color: #00ced1;
 	display: block;
-	padding-right: 15px;
+	padding-right: 10px;
 }
 nav a:hover {
 	background-color: #005f5f;
@@ -67,6 +71,9 @@ nav a:hover {
 nav a.active {
 	background-color: #008b8b;
 	color: #444
+}
+.test{
+	border-left: 2px solid #000;
 }
 footer	{
 	font-size: small;
@@ -79,7 +86,17 @@ footer	{
     padding: 0;
 
 } 
-@media screen and (max-width: 699px) and (min-width: 520px) {
+/*@media screen and (max-width: 699px) and (min-width: 520px) {
     ul li a {
         padding-left: 50px;
+    }
+}*/
+
+@media screen and (max-width: 420px){
+    nav a {
+       font-size: .5em;
+    }
+    body{
+    	font-size: .8em;
+    }
 }
