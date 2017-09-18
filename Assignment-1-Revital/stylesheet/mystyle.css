@@ -1,5 +1,5 @@
 
-* body	{
+body	{
 	font-family: 'Roborto', sans-serif;
 	width: 80%, center;
 	background-color: #FFF9C4;
@@ -12,7 +12,6 @@
  img {
      max-width: 80%;
      height: auto; 
-     center ?
 } 
 
 h1 {color: black; text-align: center;
