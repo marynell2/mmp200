@@ -55,6 +55,8 @@ nav li {
 /*	border-bottom: solid 1px #000;
 	border-top: solid 1px #000;*/
 	border-left: solid 2px #000;
+	margin-right:1em;
+	padding-left:1em;
 }
 
 nav a {
