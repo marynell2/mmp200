@@ -98,6 +98,7 @@ footer	{
 @media  (max-width: 420px){
 	nav li{
 		display:block;
+		border-left:none;
 	}
     nav a {
        font-size: .5em;
