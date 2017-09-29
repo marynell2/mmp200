@@ -10,9 +10,14 @@ body	{
     padding-right: 10px;
 }
  img {
-     max-width: 80%;
-     height: auto; 
+ 	max-width: 80%;
+    height: auto;
 } 
+img.displayed {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 h1 {color: black; 
 	text-align: center;
@@ -24,9 +29,7 @@ h2, h3 	{
 	text-align: center;
 	font-family: 'roborto', sans-serif;
 }
-p{
-	color: black;	
-}
+
 a:link	{
 	color: #00cccc;
 }	
