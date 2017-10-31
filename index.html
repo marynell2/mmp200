@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Music for your Grandparents Festival</title>
+
+<!--<link rel="stylesheet" href="style.css">-->
+<!-- Lynda adds ... type="text/css" media="all" plus some bootstrap at https://www.lynda.com/CSS-tutorials/Marking-up-five-types-menus/383780/423286-4.html
+-->
+<link rel="stylesheet" type="text/css" href="style.css">
+  <script>
+      // The following function toggles the visibility of an element
+  function toggleVis(id){
+    if (document.getElementById(id).style.display=="block"){
+          document.getElementById(id).style.display="none";}
+    else {
+          document.getElementById(id).style.display="block";}
+  }
+  </script>
+  <script src="https://use.fontawesome.com/257ea50967.js"></script>
+</head>
+<body>
+<div class="container-fluid"> <!-- this div holds all content in the page -->
+<!-- Lynda says: <main class="main-area">
+<div class="centered"> -->
+<nav>
+	<button id="toggle-menu" onclick="toggleVis('mainNav');">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </button>
+	
+	<ul id="mainNav">
+	<li><a href="#">Music</a>
+		<ul>
+			<li><a href="#">Lineup</a></li>
+			<li><a href="#">Schedule</a></li>
+			<li><a href="#">About the Artists</a></li>
+		</ul>
+	</li>
+	<li><a href="#">Tickets</a>
+		<ul>
+			<li><a href="#">Lineup</a></li>
+			<li><a href="#">Schedule</a></li>
+			<li><a href="#">About the Artists</a></li>
+		</ul>
+	<li><a href="#">Experience</a>
+		<ul>
+			<li><a href="#">Stages</a></li>
+			<li><a href="#">Videos</a></li>
+			<li><a href="#">Festival Arts</a></li>
+		</ul>
+	</li>
+	<li><a href="#">Logistics</a>
+			<ul>
+			<li><a href="#">Water Stations</a></li>
+			<li><a href="#">Handicap Seating</a></li>
+			<li><a href="#">Audio Assistance</a></li>
+		</ul>
+	<li><a href="#">Info</a>
+			<ul>
+			<li><a href="#">Email List</a></li>				
+			<li><a href="#">Press Contacts</a></li>
+			<li><a href="#">ADA Accommodations</a></li>
+		</ul>
+	
+
+</nav>
+	<header>
+		<h1><img src="images/header-large.jpg" alt="Music for your Grandparents Festival"></h1>
+	</header>
+		<div id="slideshow"><img src="images/slide-1.jpg" alt="SLIDE SHOW"></div><!--end of slideshow-->
+
+	<div id="content">
+		<h2>JUNE 21, 2019 @ 2:00 </h2>
+		<h2>RUMSEY PLAYFIELD | CENTRAL PARK | NYC</h2>
+		<h3>BRING THEM TO SEE TODAY'S MOST FAMOUS MUSICIANS / GROUPS PERFORMING NEW TAKES ON THE BEST MUSIC OF AN EARLIER GENERATION!</h3>
+
+	<div id="columns">
+		<div class="col-2">
+			<h2>For your enjoyment!</h2>
+			<ul>
+			<li>Ariana Grande sings Patty LaBelle !</li>
+			<li>Justin Timberlake does Michael Jackson !</li>
+			<li>Madonna does Janice Joplin !</li>
+			<li>Sia sings Joni Mitchell !</li>
+			<li>Justin Bieber does the Monkees !</li>
+			<li> Bruce Springstein does Chubby Checker !</li>
+			<li> Beyonce sings Donna Summer !</li>
+			</ul>
+		</div><!-- col-2 -->
+
+		<div class="col-3">
+			<img src="images/rumsey-playfield.jpg" alt="Rumsey Playfield"/>
+
+			<h2>Seating for all Grandparents and their companions!</h2>
+			<ul>
+			<h5>Ticket packages</h5>
+			<li>Single: $50</li>
+			<li>Bring a grandparent $20 each</li>
+			<li>Bring two grandparents $10 each!</li>
+			</ul>
+		</div><!-- col-3 -->
+	</div><!-- columns -->
+
+	<h1 id="benefit">A benefit for Citywide meals on wheels</h1>
+	</div> <!-- content -->
+<footer>
+	<nav>
+		<button id="toggle-menu" onclick="toggleVis('mainNav');">
+	        <i class="fa fa-bars" aria-hidden="true"></i>
+	    </button>
+		<ul id="mainNav">
+			<li><a href="#">about the benfit</a></li>
+			<li><a href="#">food & drinks</a></li>
+			<li><a href="#">travel info</a></li>
+			<li><a href="#">accessability</a></li>
+			<li><a href="#">email list</a></li>
+			<li><a href="#">privacy</a></li>
+			<li><a href="#">contacts</a></li>
+		</ul>
+	</nav>
+
+	<ul class="social">
+		<li><img src="images/facebook.png"></li>
+		<li><img src="images/twitter.png"></li>
+		<li><img src="images/instagram.png"></li>
+		<li><img src="images/youtube.png"></li>
+		<li><img src="images/search.png"></li>
+	</ul>
+	<div id="mn-hawk">
+		<p>Festival Design by MN Hawk </p>
+	
+	</div>
+</div>
+	</footer>
+</div> <!-- closing .container-fluid -->
+</body>
+</html>
