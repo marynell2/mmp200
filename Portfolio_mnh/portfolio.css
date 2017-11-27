@@ -1,0 +1,25 @@
+
+
+
+body {
+ 	/*background-color: rgb (064128);*/
+ 	background-color:rgba(0, 64, 128, .7);
+ 	color: #fff;
+}
+
+.container {
+  		background-color:#004080;
+  		color:#fff;
+  		margin-top: 0;
+
+ }
+
+.jumbotron {
+	color:#000;
+	margin-top: 2em;
+}
+
+
+
+
+  	

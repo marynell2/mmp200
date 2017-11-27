@@ -1,0 +1,123 @@
+<!-- Saved  Monday morning Nov 20 -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>MN Hawk Portfolio</title>
+
+     <!-- Bootstrap core CSS 
+    <link href="../../../../dist/css/bootstrap.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="jumbotron.css" rel="stylesheet">
+
+<!-- MNH custom CSS to personalize my site -->
+     <href="portfolio.css" rel="stylesheet">
+
+     <!--<style type="text/css">
+        body{
+          background: rgba(12, 54, 56, .9);
+        }
+        .boxes{
+          background:rgba(12, 42, 89, .2);
+        }
+     </style>-->
+
+  </head>
+
+  <body>
+<!-- Start Nav -->
+ <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse mb-4">
+  <div class="container">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#"> Navbar</a>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="https://marynell2.githum.io/mmp200/Assignment-1-Revital">MMP Website</a>
+              <a class="dropdown-item" href="https://marynell2.github.io/mmp200/festival/index.html">Festival Website</a>
+              <a class="dropdown-item" href="https://marynell2.githum.io/mmp200/Festival-Portfolio-2.pdf">Festival Planning</a>
+            </div>
+          </li>
+        </ul> 
+      </div>
+    </div><!-- End container -->
+    </nav><!-- End navigation -->
+
+
+
+   
+        <div class="container">
+    <main role="main">
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+
+          <h1 class="display-3">Greetings!</h1>
+          <p>This is my portfolio of recent MMP 200 work with Professor Revital Kaiser at the Borough of Manhattan Community College.</p>
+         <!--  <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p> -->
+        </div>
+      </div>
+
+        <!-- Example row of columns -->
+        <div class="container boxes">
+        <div class="row">
+          <div class="col-md-4">
+            <h2>MMP Website</h2>
+            <p>An alternative look for a college website, proposing a different look to emphasize the school's appreciation of creativity, multimodality, and visual culture! </p>
+            <p><a class="btn btn-secondary" href="https://marynell2.githum.io/mmp200/Assignment-1-Revital" role="button">View details &raquo;</a></p>
+          </div>
+
+          <div class="col-md-4">
+            <h2>Festival Website</h2>
+            <p>Class members were challenged to envision a new concept, and develop a responsive home page for a music festival! My proposed festival is "Music for your Grandparents," a fundraiser to bring the generations together, enjoying songs of an earlier era, freshly interpreted by the best young artists of today!</p>
+            <p><a class="btn btn-secondary" href="https://marynell2.github.io/mmp200/festival/index.html" role="button">View details &raquo;</a></p>
+          </div>
+
+          <div class="col-md-4">
+            <h2>Festival Planning</h2>
+            <p>For every website there are hours of planning and collaboration between client and  designers, before the site's coding and build even begins. This pdf document document gathers together some of these preliminary materials highlighting what happens before the coding begins!.</p>
+            <p><a class="btn btn-secondary" href="ttps://marynell2.githum.io/mmp200/Festival-Portfolio-2.pdf" role="button">View details &raquo;</a></p>
+          </div>
+
+        </div>   <!-- Ends Row -->
+        </div>
+        <hr>
+
+      </div> <!-- /container -->
+
+    </main>
+
+    <footer class="container">
+      <p>&copy; Mary Nell Hawk 2017</p>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../../../assets/js/vendor/popper.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <!--<script src="../../../../dist/js/bootstrap.min.js"></script>-->
+  </body>
+</html>
