@@ -1,4 +1,25 @@
-.carousel-item{
-	outline-width: 3px;
-	outline-color: #000;
+@font-face {
+    font-family: lemonade;
+    src: url('font/lemonade.otf');
+}
+
+.carousel-item img{
+	
+}
+
+/*font-family: 'Open+Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+.css-selector {
+  font-family: 'Open+Sans', sans-serif;
+  font-family: 'roboto', sans-serif;*/
+}
+
+body {
+  font-family: 'Open+Sans', sans-serif;
+  /*text-shadow: 4px 4px 4px #aaa;*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+	  font-family: 'lemonade', sans-serif;
 }
