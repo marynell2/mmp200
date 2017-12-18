@@ -1,0 +1,9 @@
+The realWind (Wind NOAA) app from Flytomap does one, and only one, thing - but it does it well, and you really can't complain much about a free app. When it knows your location (by GPS or wi-fi fix), it displays a map with superimposed wind arrows that 
+
+At iTunes it's titled "Wind NOAA" and can't be found by searching "realWind." The app itself calls itself "realWind" and doesn't reference the phrase "Wind NOAA" anywhere. 
+
+ essentially a hook to lead users into other Flytomap products, which are mostly maps (with satellite and photos and other bells and whistles) for lakes, parks, travel locations, etc. - as well as a marine chart version. The marine mapper ("FlyToMap GPS HD") is more a tourist product than a serious chartplotter like PocketNav or Charts and Tides. But if you ignore these other products, the wind app is a nice freebie for boaters to get a quick look at wind conditions.
+
+
+PocketNav
+https://www.thoughtco.com/best-sailing-and-boating-apps-2915364
